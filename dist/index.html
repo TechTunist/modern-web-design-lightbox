@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.min.css">
+    <script src="https://kit.fontawesome.com/2940236f69.js"></script>
+    <title>ArchiRender</title>
+</head>
+
+<body id="home">
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">ArchiRender</h1>
+            <ul class="nav">
+                <li><a href="http://www.peterjacksonarchitects.co.uk/">Home</a></li>
+                <li><a href="#footer-padding">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>Photo-Realistic Architectural Renders</h1>
+                <p>We create photo-realistic images from either a blank canvas,
+                    or from existing models you provide in any format.
+                    By utilising the best open-source 3D modelling software, we transfer our
+                    lower costs to our customers
+                </p>
+                <a href="#gallery" class="btn">portfolio</a>
+            </div>
+            <img src="img/showcase.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Secondary Content -->
+
+    <section class="section-b" id="gallery">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Any style, any scale</h3>
+                <h2>Bespoke or Existing 3D Models</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/gallery1.jpg" class="big">
+                <img src="img/gallery1.jpg" alt=""></a>
+            <a href="img/gallery2.jpg" class="big">
+                <img src="img/gallery2.jpg" alt=""></a>
+            <a href="img/gallery3.jpg" class="big">
+                <img src="img/gallery3.jpg" alt=""></a>
+            <a href="img/gallery4.jpg" class="big">
+                <img src="img/gallery4.jpg" alt=""></a>
+            <a href="img/gallery5.jpg" class="big">
+                <img src="img/gallery5.jpg" alt=""></a>
+            <a href="img/gallery6.jpg" class="big">
+                <img src="img/gallery6.jpg" alt=""></a>
+            <a href="img/gallery7.jpg" class="big">
+                <img src="img/gallery7.jpg" alt=""></a>
+            <a href="img/gallery8.jpg" class="big">
+                <img src="img/gallery8.jpg" alt=""></a>
+            <a href="img/gallery9.jpg" class="big">
+                <img src="img/gallery9.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="section-footer">
+        <div class="footer-container">
+            <div id="footer-padding">
+                <h2>Our Social Media</h2>
+                <a href="https://www.youtube.com/watch?v=nQ9UkwkkSOI" target="blank">
+                    <i class="fab fa-youtube fa-2x"></i></a>
+                <a href="https://www.instagram.com/peterjacksonarchitects/" target="blank">
+                    <i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/Peterjacksonarchitects/" target="blank">
+                    <i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+            <div>
+                <ul id="ul-footer">
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Enter your email for an online consultation</h3>
+                <form action="" method="POST" name="email-form" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control wrap">
+                            <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            size="40"
+                            class="form-control"
+                            placeholder="Email">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
